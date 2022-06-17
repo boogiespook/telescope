@@ -1,0 +1,8 @@
+<?php
+function getRandomName() {
+$names = array("Hyatt","Krajcik","Jacobi","Lehner","Koelpin","Turcotte","Padberg","Anderson","Collier","Kuhn","Schmidt","Olson","Gottlieb","Batz","Bechtelar","Lehner","Rempel","Cronin","Hagenes","Smitham","Witting","Jones","Feest","Bechtelar","Effertz","Huel","Funk","McLaughlin","Wiza","Boehm","Miller","Marvin","Emard","Collier","Tromp","Robel","Cronin","Weissnat","Goyette","Graham","Martin","Kampschulte","Wessinghage","Kesselschläger","Wickert","Frey","Gerhardt","Strege","Lax","Kofferschlager","Stein","Schönlebe","Ibe","Sollner","Möllinger","Koenig","Haferkamp","Newton","Ripken","Strutz","Pappalardo","Gamper","Maggi","Picariello","Coviello","Menegatti","Fusco","Rampazzo","Guastone","Sartor","Visintin","Cappello","Marconi","Milan","Zordan","Canepa","Cingolani","Luciani","Landi","Cintrón","Leal","Salcedo","Solano","Raya","Ríos","Regalado","Amaya","Macías","Valle","Altamirano","Olmos","Delao","Solís","Salazar","Muñiz","Treviño","Mares","Negrete","Ruelas","Bailey","O'Keefe","Wiegand","Lueilwitz","Fay","Borer","Glover","Skiles","Greenfelder","Kris","Bins","Larkin","Witting","Crist","Bins","Green","Shields","Jacobson","Fay","Streich","Swaniawski","Huels","Heller","Wolf","Terry","Wolff","Harvey","Wehner","Harvey","Hegmann","Bechtelar","Watsica","Prohaska","Langworth","Bashirian","Reinger","Halvorson","Towne","Zboncak");
+shuffle($names);
+return $names[0];
+}
+
+?>
