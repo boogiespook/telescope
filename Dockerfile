@@ -1,5 +1,5 @@
 FROM registry.access.redhat.com/ubi8/php-74:latest
 MAINTAINER Chris Jenkins "chrisj@redhat.com"
-EXPOSE 80
+EXPOSE 8080
 COPY . /opt/app-root/src
-CMD /bin/bash -c 'php -S 0.0.0.0:8000'
+CMD /bin/bash -c 'php -S 0.0.0.0:8080'
